@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace Elly.Sqlite
 {
+    [AddComponentMenu("Elly/Sqlite/Connection")]
     public class SqliteConnection : MonoBehaviour
     {
         [SerializeField] bool ConnectAtStart = true;
