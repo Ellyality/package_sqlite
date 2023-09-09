@@ -1,7 +1,7 @@
 {
 	"name": "com.ellyality.data.sqlite",
-	"displayName":"Sqlite For Unity",
-	"version": "1.0.0",
+	"displayName":"Elly SQLite",
+	"version": "1.0.2",
     "author": "Elly",
     "unity": "2019.2",
     "keywords": ["data", "database", "db", "sqlite"],
