@@ -6,7 +6,7 @@ namespace Elly.Sqlite
     {
         [SerializeField] bool ConnectAtStart = true;
         [SerializeField] string Source = string.Empty;
-        [SerializeField] SQLiteOpenFlags Flags;
+        [SerializeField] SQLiteOpenFlags Flags = SQLiteOpenFlags.Create | SQLiteOpenFlags.ReadWrite;
 
         public SQLiteConnection conn { set; get; } = null;
 
